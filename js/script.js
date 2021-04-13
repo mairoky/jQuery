@@ -33,14 +33,5 @@ $(document).ready(function () {
 	$('#fadetoggle-btn').click(function(){
 		$('#text').fadeToggle("slow");
 	});
-	// draggable
-	$( function() {
-    $( "#draggable" ).draggable();
-  } );
-	// Resizable
-	$( function() {
-    $( "#resizable" ).resizable();
-  } );
-
 	
 });
